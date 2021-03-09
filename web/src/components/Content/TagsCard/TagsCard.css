@@ -1,0 +1,18 @@
+.tags {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.tag {
+    display: inline;
+    font-weight: 300;
+    margin-right: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .tags {
+        margin: 15px 0;
+    }
+}

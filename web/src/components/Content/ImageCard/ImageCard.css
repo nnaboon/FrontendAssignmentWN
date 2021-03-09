@@ -1,0 +1,27 @@
+.sub-images {
+    display: inherit;
+    flex-direction: row;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sub-images img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+@media (max-width: 600px) {
+    .sub-images {
+        justify-content: space-between;
+    }
+
+    .sub-images img {
+        object-fit: cover;
+        width: 30%;
+        height: 120px;
+        margin: 0;
+        padding-right: 5px;
+    }
+}

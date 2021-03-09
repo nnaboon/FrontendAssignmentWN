@@ -1,0 +1,10 @@
+How to start
+
+## api-gateway
+nodemon app.js
+
+## json-server
+npm start
+
+## web
+npm start
